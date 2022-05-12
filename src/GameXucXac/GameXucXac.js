@@ -42,6 +42,7 @@ export default class GameXucXac extends Component {
         img: `./imgXucSac/${random}.png`,
       };
     });
+    // da
     let ketQua = tongDiemXucXac >= 11 ? TAI : XIU;
     let newSoBanThang =
       this.state.luaChon === ketQua
