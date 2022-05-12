@@ -2,7 +2,7 @@
   "name": "gamexucxac",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://riokez.github.io/react-gameXucXac",
+  "homepage": "https://riokez.github.io/gameXucXac",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.2.0",
