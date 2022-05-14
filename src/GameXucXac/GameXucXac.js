@@ -56,6 +56,14 @@ export default class GameXucXac extends Component {
     });
   };
 
+  handleTongXX = () => {
+    let tong = 0;
+    for (let i = 0; i < this.state.mangXucXac.length; i++) {
+      tong += this.state.mangXucXac[i].giaTri;
+    }
+    return tong;
+  };
+
   render() {
     return (
       <div className="bg_game">
@@ -64,6 +72,8 @@ export default class GameXucXac extends Component {
           handleLuaChon={this.handleLuaChon}
         />
         <KetQua
+          handleTongXX={this.handleTongXX}
+          mangXucXac={this.state.mangXucXac}
           luaChon={this.state.luaChon}
           soBanThang={this.state.soBanThang}
           soLuotChoi={this.state.soLuotChoi}

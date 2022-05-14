@@ -8,8 +8,11 @@ let btnStyle = {
 export default class XucXac extends Component {
   render() {
     return (
-      <div className="container" style={{ marginBottom: "160px" }}>
-        <h1 style={{ fontSize: "75px", marginBottom: "200px" }}>
+      <div className="container">
+        <h1
+          className="title-game"
+          style={{ fontSize: "75px", marginBottom: "200px" }}
+        >
           Game xúc xắc
         </h1>
         <div className="d-flex justify-content-between align-items-center">

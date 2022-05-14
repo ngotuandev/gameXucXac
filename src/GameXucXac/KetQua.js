@@ -6,6 +6,13 @@ export default class KetQua extends Component {
     return (
       <div>
         {luaChon === null ? (
+          ""
+        ) : (
+          <h2 className="text-warning">
+            {luaChon} - {this.props.handleTongXX()}
+          </h2>
+        )}
+        {luaChon === null ? (
           <h3>Bạn chưa chọn</h3>
         ) : (
           <h3>
@@ -20,7 +27,7 @@ export default class KetQua extends Component {
         </h3>
         <button
           className="btn btn-success"
-          style={{ marginTop: "50px", fontSize: "35px" }}
+          style={{ marginTop: "30px", fontSize: "35px" }}
           onClick={() => {
             this.props.handlePlay();
           }}
