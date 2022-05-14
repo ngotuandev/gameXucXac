@@ -11,7 +11,7 @@ export default class XucXac extends Component {
       <div className="container">
         <h1
           className="title-game"
-          style={{ fontSize: "75px", marginBottom: "200px" }}
+          style={{ fontSize: "75px", marginBottom: "75px" }}
         >
           Game xúc xắc
         </h1>

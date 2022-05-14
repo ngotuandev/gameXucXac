@@ -4,11 +4,11 @@ export default class KetQua extends Component {
   render() {
     let { luaChon, soBanThang, soLuotChoi } = this.props;
     return (
-      <div>
+      <div style={{ marginTop: "50px" }}>
         {luaChon === null ? (
           ""
         ) : (
-          <h2 className="text-warning text-sum-game">
+          <h2 className="text-warning">
             {luaChon} - {this.props.handleTongXX()}
           </h2>
         )}
