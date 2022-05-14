@@ -8,7 +8,7 @@ export default class KetQua extends Component {
         {luaChon === null ? (
           ""
         ) : (
-          <h2 className="text-warning">
+          <h2 className="text-warning text-sum-game">
             {luaChon} - {this.props.handleTongXX()}
           </h2>
         )}
